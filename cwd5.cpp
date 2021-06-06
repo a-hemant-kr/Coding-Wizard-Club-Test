@@ -21,6 +21,9 @@ int main()
             }
         }
     }
-    cout<<"\n"<<"number of inversions are "<<c;
+ if(c>0)
+    cout<<"\n"<<"number of inversions are "<<c<<endl;
+ else
+	 cout<<"0";
 	return 0;
 }
